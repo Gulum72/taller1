@@ -47,7 +47,13 @@ public class Cuenta {
 	}
 	
 	public void imprimirConEstilo() {
-		
+		System.out.println("-------------------------------");
+		System.out.println("--   CUENTA BANCARIA   --");
+		System.out.println("-------------------------------");
+		System.out.println("   NUMERO DE CUENTA: "+id);
+		System.out.println("   TIPO: "+tipo);
+		System.out.println("   SALDO $: "+saldo);
+		System.out.println("__________________________________");
 	}
 	
 	
